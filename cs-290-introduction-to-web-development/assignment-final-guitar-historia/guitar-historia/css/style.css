@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  background-color: #cee3f8;
+}
+
+main {
+  background-color: white;
+  padding-top: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+   background: GoldenRod;
+}
+
+.nav-bar {
+    background-color: #333;
+}
+
+.header h1{
+  text-align: center;
+  color: white;
+  padding: 60px;
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#home-intro{
+  text-align: justify;
+  width: 800px;
+  margin:auto;
+  padding: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.header img {
+  position: absolute;
+  margin-top: -175px;
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+#rr1959 {
+  margin-top: -100px;
+  margin-left: 20px;
+}
+
+#gblespaul {
+  margin-top: -130px
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 115px;
+  text-decoration: none;
+}
+
+.nav-bar li a:hover {
+  background-color: #111;
+}
+
+.homepage-guitarists {
+  text-align: center;
+}
+
+.homepage-guitarists > div {
+  display: inline-block;
+  width: 25%;
+}
+.homepage-guitarists img {
+  max-width: 100%;
+  vertical-align: left;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.slide-show {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+#homepage-video { 
+  margin: auto; width: 1000px; 
+  display: block;
+  text-align: center;
+}
+
+
+/*--------------------------------------------------------------------------
+Guitar/Amps Style Page
+--------------------------------------------------------------------------*/
+.boxed {
+  border-top: 1px solid grey;
+ }
+
+ .boxed:nth-of-type(3) {
+  border-bottom: 1px solid grey;
+ }
+
+.boxed h2{
+  text-align: center;
+}
+
+.boxed p{
+  text-align: justify;
+  width: 800px;
+  margin:auto;
+  padding: 20px;
+}
+
+.notable-mentions {
+  text-align: center;
+}
+
+.notable-mentions > ul {
+  display: inline-block;
+}
+
+#download-catalog{
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 14px 32px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: royalblue;
+}
+
+/*--------------------------------------------------------------------------
+Contact Style Page
+--------------------------------------------------------------------------*/
+
+.contact-header {
+  text-align: center;
+}
+
+.contact-main {
+  padding: 15px;
+}
+
+#contact-form {
+  max-width: 400px;
+}
+
+#contact-form input, #contact-form textarea{
+  width: 100%;
+  padding: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea{
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+
+
+#resources-scroll {
+  height:200px;
+  width:400px;
+  border:1px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:auto;
+}

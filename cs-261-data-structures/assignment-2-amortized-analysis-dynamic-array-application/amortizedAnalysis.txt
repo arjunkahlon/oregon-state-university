@@ -1,0 +1,74 @@
+Name: Arjun Kahlon
+
+1. We initially begin with an empty array with a starting capacity of 8. 
+
+Adding 8 items will have a cost of 8.
+
+Adding a 9th item will have a cost of 8 (to double the size to 16) and 1 (to add the 9th element). This gives us a total of 17 cost units.
+
+We then add 7 more items to reach a capacity of 16. We are now at 24 cost unites. 
+
+Adding a 17th item will have a cost of 16 (doubles capacity to 32) and 1 to add the 17th item. This gives us 41 cost units.
+
+We then add 15 to reach the new capacity of 32. We are now at 56 cost units. 
+
+Adding a 33rd item will have a cost of 32 (doubles capacity to 64) and 1 to add the 33rd item. This gives us 89 cost unites. 
+
+To reach 50 consecutive pushes, we add 17, giving us a total of 106 cost units. 
+
+
+106 Cost Units
+
+average big-oh complexity for push: O(1)+
+
+
+2. We initially begin with an empty array with a starting capacity of 8.
+
+Adding 8 items will give us a cost of 8. Total cost: 8
+
+We then increase the capacity to 10 by copying 8 and add 2. Total cost: 18.
+
+We then increase the capacity to 12 by copying 10 and add 2. Total cost: 30. 
+
+We then increase the capacity to 14 by copying 12 and add 2. Total cost: 44.
+
+We then increase the capacity to 16 by copying 14 and add 2. Total cost: 60. 
+
+We then increase the capacity to 18 by copying 16 and add 2. Total cost: 78.
+
+We then increase the capacity to 20 by copying 18 and add 2. Total cost: 98.
+
+We then increase the capacity to 22 by copying 20 and add 2. Total cost: 120. 
+
+We then increase the capacity to 24 by copying 22 and add 2. Total cost: 144. 
+
+We then increase the capacity to 26 by copying 24 and add 2. Total cost: 170.
+
+We then increase the capacity to 28 by copying 26 and add 2. Total cost: 198.
+
+We then increase the capactiy to 30 by copying 28 and add 2. Total cost: 228.
+
+We then increase the capactiy to 32 by copying 30 and add 2. Total cost: 260.
+
+We then increase the capacity to 34 by copying 32 and add 2. Total cost: 294. 
+
+We then increase the capacity to 36 by copying 34 and add 2. Total cost: 330.
+
+We then increase the capactiy to 38 by copying 36 and add 2. Total cost: 368. 
+
+We then increase the capacity to 40 by copying 38 and add 2. Total cost: 408.
+
+We then increase the capacity to 42 by copying 40 and add 2. Total cost: 450.
+
+We then increase the capacity to 44 by copying 42 and add 2. Total cost: 494.
+
+We then increase the capacity to 46 by copying 44 and add 2. Total cost: 540.
+
+We then increase the capacity to 48 by copying 46 and add 2. Total cost: 588.
+
+We then increase the capacity to 50 by copying 48 and add 2. Total cost: 638.
+
+
+638 Cost Units are spent in the entire process
+
+average big-oh complexity for a push: O(n)
